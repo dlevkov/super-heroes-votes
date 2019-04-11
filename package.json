@@ -11,7 +11,6 @@
     "e2e": "cypress open",
     "test:watch": "jest --watch",
     "test:ci": "jest --ci --coverage",
-    "record": "cypress run --record --key dd33fb07-3fc8-4a16-b73d-5da81046f12a",
     "ci:open": "cypress open",
     "ci:run": "cypress run",
     "ci:test": "start-server-and-test start http://localhost:4200 ci:run"
