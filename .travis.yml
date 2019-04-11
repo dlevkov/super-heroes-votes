@@ -21,7 +21,7 @@ script:
   - ng lint
   - npm run test:ci
   - ng s &
-  - npm run cy:run -- --record --parallel
+  - npm run ci:run -- --record --parallel
   - ng build --prod --base-href https://dlevkov.github.io/super-heroes-votes/
 deploy:
   provider: pages
