@@ -13,7 +13,8 @@
     "test:ci": "jest --ci --coverage",
     "record": "cypress run --record --key dd33fb07-3fc8-4a16-b73d-5da81046f12a",
     "ci:open": "cypress open",
-    "ci:run": "cypress run"
+    "ci:run": "cypress run",
+    "ci:test": "start-server-and-test start http://localhost:4200 ci:run"
   },
   "private": true,
   "dependencies": {
@@ -35,21 +36,20 @@
     "@angular/cli": "~7.3.8",
     "@angular/compiler-cli": "~7.2.0",
     "@angular/language-service": "~7.2.0",
+    "@types/jest": "^24.0.11",
     "@types/node": "~8.9.4",
-    "@types/jasmine": "~2.8.8",
-    "@types/jasminewd2": "~2.0.3",
     "codelyzer": "~4.5.0",
+    "cypress": "^3.2.0",
     "husky": "1.3.1",
-    "jasmine-core": "~2.99.1",
-    "jasmine-spec-reporter": "~4.2.1",
     "jest": "24.7.1",
     "jest-preset-angular": "7.1.0",
     "lint-staged": "8.1.5",
     "prettier": "1.16.4",
-    "protractor": "~5.4.0",
+    "rxjs-tslint-rules": "^4.19.1",
+    "start-server-and-test": "^1.7.13",
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
-    "tslint-config-prettier": "1.18.0",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "~3.2.2"
   },
   "husky": {
