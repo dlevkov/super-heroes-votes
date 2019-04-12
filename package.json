@@ -61,5 +61,10 @@
       "prettier --write",
       "git add"
     ]
+  },
+  "greenkeeper": {
+    "ignore": [
+      "core-js"
+    ]
   }
 }
