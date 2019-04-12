@@ -1,5 +1,6 @@
 # SuperHeroesVotes
 
+[![Build Status](https://travis-ci.com/dlevkov/super-heroes-votes.svg?branch=master)](https://travis-ci.com/dlevkov/super-heroes-votes)
 [![Greenkeeper badge](https://badges.greenkeeper.io/dlevkov/super-heroes-votes.svg)](https://greenkeeper.io/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
