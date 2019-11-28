@@ -46,7 +46,7 @@
     "prettier": "1.18.0",
     "rxjs-tslint-rules": "^4.19.1",
     "start-server-and-test": "^1.7.13",
-    "ts-node": "~8.3.0",
+    "ts-node": "~8.5.3",
     "tslint": "~5.15.0",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.2.4"
