@@ -45,7 +45,7 @@
     "lint-staged": "8.2.1",
     "prettier": "1.18.0",
     "rxjs-tslint-rules": "^4.19.1",
-    "start-server-and-test": "^1.7.13",
+    "start-server-and-test": "^1.10.7",
     "ts-node": "~8.3.0",
     "tslint": "~5.15.0",
     "tslint-config-prettier": "^1.18.0",
